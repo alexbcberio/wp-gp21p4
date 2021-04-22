@@ -15,7 +15,7 @@ const webpackConfig = {
   ],
   output: {
     path: path.resolve(__dirname, outDir),
-    filename: "app.js",
+    filename: "app.js"
   },
   module: {
     rules: [
@@ -26,6 +26,10 @@ const webpackConfig = {
           'css-loader',
           'sass-loader',
         ],
+      },
+      {
+        test: /\.(woff2?)$/i,
+        type: 'asset/resource'
       }
     ],
   },
