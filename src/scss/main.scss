@@ -1,5 +1,17 @@
 @import "bootstrap/base";
 
+header {
+  height: #{100 * 9 / 16} + '%';
+  background-image: url('../images/header/banner_2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left 35%;
+
+  img {
+    box-shadow: 0 0 1em var(--primary);
+  }
+}
+
 body {
   text-align: left;
 }

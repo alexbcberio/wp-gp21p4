@@ -27,8 +27,14 @@ const webpackConfig = {
           'sass-loader',
         ],
       },
+      // fonts
       {
         test: /\.(woff2?)$/i,
+        type: 'asset/resource'
+      },
+      // images
+      {
+        test: /\.(jpe?g?|png)$/i,
         type: 'asset/resource'
       }
     ],
