@@ -1289,6 +1289,10 @@ onetime@^5.1.2:
   dependencies:
     mimic-fn "^2.1.0"
 
+"openmoji-awesome@git+https://github.com/gromain/openmoji-awesome.git":
+  version "0.0.0"
+  resolved "git+https://github.com/gromain/openmoji-awesome.git#f852bed692ad3b62571f6f8c93391506b46888df"
+
 p-limit@^2.2.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/p-limit/-/p-limit-2.3.0.tgz#3dd33c647a214fdfffd835933eb086da0dc21db1"

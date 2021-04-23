@@ -21,6 +21,7 @@
     "@fontsource/sansita": "^4.2.2",
     "bootstrap": "^4.6.0",
     "jquery": "^3.6.0",
+    "openmoji-awesome": "git+https://github.com/gromain/openmoji-awesome.git",
     "popper.js": "^1.16.1"
   }
 }

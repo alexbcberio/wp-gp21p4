@@ -68,13 +68,22 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarLanguagesDropdown" data-toggle="dropdown">
-                        <?php // TODO: Add emoji or icons library ?>
-                        ES 🌐
+                        ES
+                        <span class="oma oma-globe-with-meridians"></span>
                     </a>
                     <ul class="dropdown-menu dropdown-menu-right">
-                    <?php // TODO: Add emoji or icons library ?>
-                        <li><a class="dropdown-item active" href="#">🇪🇸 Español</a></li>
-                        <li><a class="dropdown-item" href="#">🇬🇧 English</a></li>
+                        <li>
+                            <a class="dropdown-item active" href="#">
+                                <span class="oma oma-flag-spain"></span>
+                                Español
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                <span class="oma oma-flag-united-kingdom"></span>
+                                English
+                            </a>
+                        </li>
                     </ul>
                 </li>
             </ul>
